@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "name": "Blog Yogyakarta Mengaji",
+      "desc": "Berisi artikel, download ebook islami, jadwal kajian",
+      "img": "ym/1.png",
+      "tools": [
+        "Laravel", 
+        "Bootstrap", 
+        "JQuery"
+        ],
+      "screenshot": [
+        "ym/1.png",
+        "ym/2.png",
+        "ym/3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Register Diklit",
+      "desc": "Mengelola data pendaftar diklit di Puskesmas Mlati II",
+      "img": "rdpm/1.png",
+      "tools": [
+        "Laravel", 
+        "Bootstrap", 
+        "JQuery"
+        ],
+        "screenshot": [
+          "rdpm/1.png",
+          "rdpm/2.png",
+          "rdpm/3.png"
+        ]
+    }
+  ]
