@@ -57,4 +57,6 @@ export default {
     color: '#38bdf8',
     height: '5px',
   },
+
+  target: 'serverless',
 }
