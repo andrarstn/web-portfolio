@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-white dark:bg-slate-900">
     <!-- Hero -->
     <section id="home" class="py-36">
       <div class="container">
@@ -53,12 +53,14 @@
     <!-- End Hero -->
 
     <!-- Portfolio -->
-    <section id="portfolio" class="py-20 bg-slate-100">
+    <section id="portfolio" class="py-20 bg-slate-50 dark:bg-slate-800">
       <div class="container">
         <div class="w-full mb-10">
           <div class="text-center">
             <h1 class="text-sky-400 text-4xl font-bold">Portfolio</h1>
-            <p>Berikut merupakan projek-projek yang pernah saya bangun.</p>
+            <p class="text-slate-400">
+              Berikut merupakan projek-projek yang pernah saya bangun.
+            </p>
           </div>
         </div>
         <div class="flex flex-wrap justify-center">

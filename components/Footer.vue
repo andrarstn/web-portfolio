@@ -1,5 +1,5 @@
 <template>
-  <footer class="py-20">
+  <footer class="py-20 dark:bg-slate-900">
     <div class="container">
       <div class="flex mb-5">
         <div class="w-full text-center">

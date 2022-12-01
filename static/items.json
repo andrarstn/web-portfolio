@@ -12,11 +12,45 @@
       "screenshot": [
         "ym/1.png",
         "ym/2.png",
-        "ym/3.png"
+        "ym/3.png",
+        "ym/5.png"
       ]
     },
     {
       "id": 2,
+      "name": "Meet Doctor",
+      "desc": "Membuat appointment dengan dokter.",
+      "img": "md/1.png",
+      "tools": [
+        "Laravel", 
+        "Tailwind", 
+        "DataTable"
+        ],
+        "screenshot": [
+          "md/1.png",
+          "md/2.png",
+          "md/3.png",
+          "md/4.png"
+        ]
+    },
+    {
+      "id": 3,
+      "name": "Power Human",
+      "desc": "Aplikasi HRIS, mengelola data perusahaan.",
+      "img": "hris/1.png",
+      "tools": [
+        "Laravel", 
+        "Sanctum", 
+        "API", 
+        "Tailwind", 
+        "NuxtJS"
+        ],
+        "screenshot": [
+          "hris/1.png"
+        ]
+    },
+    {
+      "id": 4,
       "name": "Register Diklit",
       "desc": "Mengelola data pendaftar diklit di Puskesmas Mlati II",
       "img": "rdpm/1.png",

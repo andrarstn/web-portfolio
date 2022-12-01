@@ -21,7 +21,7 @@ export default {
   plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: { dirs: ['~/components', '~/components/icons'] },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
@@ -29,6 +29,7 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxt/postcss8',
+    '@nuxtjs/color-mode',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -56,7 +57,19 @@ export default {
   loading: {
     color: '#38bdf8',
     height: '5px',
+    throttle: 0,
   },
 
-  target: 'serverless',
+  ssr: true,
+
+  tailwindcss: {
+    // add '~tailwind.config` alias
+    exposeConfig: true,
+  },
+  colorMode: {
+    // remove -mode suffix for Tailwind Dark mode support
+    classSuffix: '',
+    preference: 'light', // default value of $colorMode.preference
+    fallback: 'light', // fallback value if not system preference found
+  },
 }
